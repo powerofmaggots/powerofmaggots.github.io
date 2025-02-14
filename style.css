@@ -1,0 +1,61 @@
+body{
+    background-color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url(159702-black-background-digital-art-minimalism-cityscape-skyscraper-pixel-art-pixelated-pixels-building-night-clouds-dark-1969014310.jpg);
+}
+h1
+{
+    text-align: center;
+    color: whitesmoke;
+    padding: 20px;
+}
+h2
+{
+    text-align: center;
+    color: whitesmoke;
+
+}
+p{
+    color: whitesmoke;
+    text-align: center;
+}
+header div{
+    color: whitesmoke;
+    text-align: center;
+}
+
+main{
+    display: grid;
+    grid-template-columns: repeat(4, 100px);
+    grid-template-rows: 50px;
+    gap:20px;
+    justify-content: center;
+    grid-template-rows: repeat(4, 100px);
+padding: 30px;
+}
+.negyzet{
+    background-color: gray;
+    transition: 0.3s;
+    background-image: url(29e8901c-7fd6-42d3-8865-d7d4fa6a3ba7-2702101273.jpg);
+    background-size: 250%;
+    background-position:center ;
+    box-shadow: 50px,50px,15px;
+}
+.negyzet:hover{
+    background-image: url(694940094001_6030821523001_6030818741001-vs-3418935586.jpg);
+    background-size: 250%;
+    background-position:center ;
+}
+
+aside{
+    color: whitesmoke;
+    width: 30%;
+}
+.cel{
+    background-color: green;
+ 
+      background-image: url(elon-musk-3436171279.jpg);
+      background-size: 250%;
+      background-position:center ;
+
+}
