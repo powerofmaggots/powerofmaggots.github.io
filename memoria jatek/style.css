@@ -1,0 +1,34 @@
+body{
+    background-color: gray;
+    background-image: url(image-26071-800.jpg);
+background-size: 120%;
+    background-position:center ;
+}
+h1{
+    color: whitesmoke;
+    text-align: center;
+}
+
+
+main{
+    display:grid;
+    grid-template-columns: repeat(6,50px);
+    grid-template-rows: repeat(6,50px);
+    justify-content: center;
+    gap: 10px;
+}
+p{
+    color: whitesmoke;
+}
+
+.kartya{
+    text-align: center;
+    background-color: green;
+color:whitesmoke;
+transition: 0.3s;
+
+}
+
+.kartya:hover{
+    background-color: red;
+}
